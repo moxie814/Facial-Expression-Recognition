@@ -12,11 +12,10 @@ Used:
 2.OpenCV (cv2): Library for computer vision tasks such as image and video processing.<br>
 3.DeepFace: Library for facial analysis, including emotion detection.<br>
 
-![Screenshot](https://github.com/moxie814/Facial-Expression-Recognition/assets/C:/Users/Mannat/Downloads/methodology.jpg)
 
 # Working
-1. Initialization:<br>
-The code initializes the OpenCV library (`cv2`) for computer vision tasks and imports the `DeepFace` library for facial analysis.<br>
+1. Initialization:
+The code initializes the OpenCV library (`cv2`) for computer vision tasks and imports the `DeepFace` library for facial analysis.
 2. Face Cascade Classifier:
  It loads a pre-trained face cascade classifier (`haarcascade_frontalface_default.xml`) provided by OpenCV. This classifier is used to detect faces in the webcam frames.
 3. Video Capture:
